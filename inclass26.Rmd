@@ -1,6 +1,6 @@
 ---
-title: "TM_EX"
-author: "Tiantian meng"
+title: "Normal random sample"
+author: "Tiantian Meng"
 date: "3/22/2022"
 output: pdf_document
 ---
@@ -9,8 +9,17 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# (1) A new git/R project
 ```{r}
+library(usethis)
+use_git_config(user.name = "TiantianM", user.email = "meng010612@gmail.com")
 
 Y<- rnorm( 100)
 hist( Y)
 ```
+
+The path :"~/Desktop/STA2300/TM_EX", "~/Desktop/STA2300/GitHubEx".
+
+# (2) Adding a new files
+
+![Karl Frederick Gauss was a German mathematician and physicist who made significant contributions to many areas of mathematics and science.](Gauss.jpg){width=40%}
