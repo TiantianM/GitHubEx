@@ -1,0 +1,16 @@
+---
+title: "TM_EX"
+author: "Tiantian meng"
+date: "3/22/2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+Y<- rnorm( 100)
+hist( Y)
+```
